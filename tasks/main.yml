@@ -6,7 +6,7 @@
 
 - name: Ensure packages are installed.
   package:
-    package: "{{ item }}"
+    name: "{{ item }}"
     state: present
   with_items: "{{ ansible_packages }}"
 
