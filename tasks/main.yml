@@ -11,4 +11,4 @@
   with_items: "{{ ansible_packages }}"
 
 # Setup/install tasks.
-- include_tasks: setup-RedHat.yml "setup-{{ ansible_os_family }}.yml"
+- include_tasks: "setup-{{ ansible_os_family }}.yml"
