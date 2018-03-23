@@ -9,3 +9,4 @@ ansible_packages:
   - python-passlib
   - python-pip
   - python-firewall
+  - libsemanage-python
