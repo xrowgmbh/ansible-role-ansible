@@ -1,0 +1,11 @@
+---
+ 
+ansible_packages:
+  - python-pip
+  - pexpect
+  - rpm-python
+  - libselinux-python
+  - python-netaddr
+  - python-passlib
+  - python-pip
+  - python-firewall

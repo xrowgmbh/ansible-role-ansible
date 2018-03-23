@@ -1,0 +1,5 @@
+--- 
+
+ansible_packages:
+  - python-mysqldb
+  - python-passlib
