@@ -17,3 +17,10 @@
 
 # Setup/install tasks.
 - include_tasks: "setup-{{ ansible_os_family }}.yml"
+
+- template:
+    src: ansible.cfg
+    dest: /etc/ansible/ansible.cfg
+    owner: root
+    group: root
+    mode: 0644
