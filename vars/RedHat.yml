@@ -7,6 +7,5 @@ ansible_packages:
   - libselinux-python
   - python-netaddr
   - python-passlib
-  - python-pip
   - python-firewall
   - libsemanage-python
