@@ -1,7 +1,8 @@
 ---
  
-ansible_packages:
+ansible_yum_packages:
   - python-pip
+  - python2-pbr
   - pexpect
   - rpm-python
   - libselinux-python
@@ -10,3 +11,11 @@ ansible_packages:
   - python-pip
   - python-firewall
   - libsemanage-python
+
+ansible_pip_packages: []
+# @TODO remove if not needed
+#  - name: jinja2
+#    version: 2.9.6
+#  - name: pbr
+#    version: 1.6
+
