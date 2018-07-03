@@ -2,15 +2,15 @@
  
 ansible_yum_packages:
   - python-pip
-  - python2-pbr
   - pexpect
   - rpm-python
   - libselinux-python
   - python-netaddr
-  - python-passlib
   - python-firewall
+  - pyOpenSSL
   - libsemanage-python
-
+  - python-cryptography
+  - python-lxml
 ansible_pip_packages: []
 # @TODO remove if not needed
 #  - name: jinja2
