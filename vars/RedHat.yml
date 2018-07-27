@@ -11,6 +11,7 @@ ansible_yum_packages:
   - libsemanage-python
   - python-cryptography
   - python-lxml
+  - python2-winrm
 ansible_pip_packages: []
 # @TODO remove if not needed
 #  - name: jinja2
