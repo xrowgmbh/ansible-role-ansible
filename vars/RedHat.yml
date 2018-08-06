@@ -12,6 +12,7 @@ ansible_yum_packages:
   - python-cryptography
   - python-lxml
   - python2-winrm
+  - cronie
 ansible_pip_packages: []
 # @TODO remove if not needed
 #  - name: jinja2
